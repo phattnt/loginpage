@@ -21,7 +21,7 @@ export default function Login() {
       <div className="h-full flex items-center justify-center relative">
         <div
           className={`absolute w-screen h-screen z-50 opacity-0 transition-all duration-300 ease-in-out ${
-            showpopup ? "flex bg-black bg-opacity-25 opacity-100 " : "-z-30"
+            showpopup ? "flex bg-black bg-opacity-25 opacity-100 " : "-z-30 hidden"
           }`}
         >
           <div className="flex-col justify-center items-center h-full w-full relative flex ">
